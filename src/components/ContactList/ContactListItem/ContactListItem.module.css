@@ -1,0 +1,19 @@
+.contactsName {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.contactsBtn {
+  padding: 5px 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.contactListItem {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
