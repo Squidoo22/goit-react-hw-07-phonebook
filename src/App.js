@@ -23,7 +23,7 @@ export default function App() {
       name,
       number,
     };
-    if (identicalName === false) {
+    if (!identicalName) {
       dispatch(addContact(newContact));
     } else {
       alert(`${name} is already in contacts`);
